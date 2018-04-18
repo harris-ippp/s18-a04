@@ -1,4 +1,4 @@
-# Assignment 4: Matching, Simulation, and Plotting
+# Assignment 4: Matching and Simulation
 
 In this assignment you will build up the Gale-Shapely matching algorithm presented in class to be a reusable function and use simulation to investigate its properties.
 
