@@ -45,12 +45,13 @@ In this assignment you will build up the Gale-Shapely matching algorithm present
 
 2. Write a function `get_hospital_match_ranks(M, hospital_prefs)` that, given a matching `M` and hospital preferences dictionary `hospital_prefs` returns a dictionary whose keys are hospitals and values are the rank of the hospital's match.
 
-   For example, you can test your function in the `n=3` example as follows:
+    For example, you can test your function in the `n=3` example from class as follows:
    
-   ```python
-   >>> import helper
-   >>> helper.get_hospital_match_ranks({'Y': 'B', 'X': 'A', 'Z': 'C'},
-                                       {'X': ['B', 'A', 'C'],
-                                        'Y': ['A', 'B', 'C'],
-                                        'Z': ['A', 'B', 'C']})
-  ```
+    ```python
+    >>> import helper
+    >>> helper.get_hospital_match_ranks({'Y': 'B', 'X': 'A', 'Z': 'C'},
+                                        {'X': ['B', 'A', 'C'],
+                                         'Y': ['A', 'B', 'C'],
+                                         'Z': ['A', 'B', 'C']})
+    {'Y': 2, 'X': 2, 'Z': 3}
+    ```
