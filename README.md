@@ -60,10 +60,10 @@ In this assignment you will build up the Gale-Shapely matching algorithm present
 3. Write a script called `simulate.py` that simulates the the matching problem one thousand times with `n=100`. For each one store the average hospital and student match ranks. Print the average hospital match rank and student match rank across all simulations.
 
     For example, your script might look like this:
-    ```python
+    ```bash
     $ python simulate.py
     Average hospital match rank: ???
     Average student match rank: ???
     ```
     
-    Hint: Initialize empty lists `student_match_avg_rank` and `hospital_match_avg_rank`. Iterate over `i=0` to `1000`. Simulate the matching problem (see `test_match_random.py`). Get the hospital and student rank dictionaries using the functions you wrote in B.3. Calculate the *average* hospital and student ranks by taking the mean over the `values()` of each dictionary. Append the averages to the respective lists (`student_match_avg_rank` or `hospital_match_avg_rank`).
+    Hint: Initialize empty lists `student_match_avg_rank` and `hospital_match_avg_rank`. Iterate over `i=0` to `1000`. Simulate the matching problem (see `test_match_random.py`). Get the hospital and student rank dictionaries using the functions you wrote in B.3. Calculate the *average* hospital and student ranks by taking the mean over the `values()` of each dictionary. Append the averages to the respective lists (`student_match_avg_rank` or `hospital_match_avg_rank`). Finally, take the average over each list.
