@@ -27,7 +27,7 @@ In this assignment you will build up the Gale-Shapely matching algorithm present
 
     Hint: take the code included `lecture_example.py` and remove the hard-coded data (students, hospitals, student_prefs, hospital_prefs, hospital_ranks). Call your `get_ranks` function to create the `hospital_ranks` dictionary. Return the resulting match instead of printing it.
     
-3. Add code to `match.py` to validate `student_prefs`, `hospital_prefs`, and `students` have the following properties:
+3. Add code to `match()` to validate that `student_prefs`, `hospital_prefs`, and `students` have the following properties:
 
     - The sudents specified in `students` are the same as those in `student_prefs`.
     - The number of students and hospitals are the same
