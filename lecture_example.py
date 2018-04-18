@@ -16,7 +16,8 @@ hospital_prefs = {
 # initialize student offer lists as reversed prefs
 student_offers = {}
 for s in student_prefs:
-    student_offers[s] = student_prefs[s][::-1]
+    student_offers[s] = list(student_prefs[s])
+    student_offers[s].reverse()
 
 # create hospital rank dictinaries for easy lookup
 hospital_rank = {
