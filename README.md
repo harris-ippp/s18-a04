@@ -45,7 +45,7 @@ In this assignment you will build up the Gale-Shapely matching algorithm present
 
   Hint: use `range(n)` to iterate and use `list(np.random.permutation(n))` to generate a random preference list. (after importing NumPy: `import numpy as np`) 
 
-2. Write a function `get_hospital_match_ranks(M, hospital_prefs)` that, given a matching `M` and hospital preferences dictionary `hospital_prefs` returns a dictionary whose keys are hospitals and values are the rank of the hospital's match. Write an analogous function `get_student_match-ranks(M, student_prefs)`. (4 points)
+2. Write a function `get_hospital_match_ranks(M, hospital_prefs)` that, given a matching `M` and hospital preferences dictionary `hospital_prefs` returns a dictionary whose keys are hospitals and values are the rank of the hospital's match. Write an analogous function `get_student_match_ranks(M, student_prefs)`. (4 points)
 
     For example, you can test `get_hospital_match_ranks` in the `n=3` example from class as follows:
    
