@@ -2,7 +2,7 @@ students = ['A', 'B', 'C']
 hospitals = ['X', 'Y', 'Z']
 
 student_prefs = {
-        'A': ['X', 'Y', 'Z'],
+    'A': ['X', 'Y', 'Z'],
     'B': ['Y', 'X', 'Z'],
     'C': ['X', 'Y', 'Z']
 }
