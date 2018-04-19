@@ -9,12 +9,12 @@ In this assignment you will build up the Gale-Shapely matching algorithm present
 
     ```python
     >>> import helper
-    >>> hospital_prefs = prefs = {
+    >>> hospital_prefs = {
     ... 'X': ['B', 'A', 'C'],
     ... 'Y': ['A', 'B', 'C'],
     ... 'Z': ['A', 'B', 'C']
     ... }
-    >>> helper.get_ranks(prefs)
+    >>> helper.get_ranks(hospital_prefs)
     {'Y': {'A': 1, 'C': 3, 'B': 2}, 'X': {'A': 2, 'C': 3, 'B': 1}, 'Z': {'A': 1, 'C': 3, 'B': 2}}
     ```
     (Remember that dictionaries are unordered so the order of your output may differ.)
