@@ -21,7 +21,7 @@ In this assignment you will build up the Gale-Shapely matching algorithm present
     
     Hint: Iterate over each hospital `h` in `prefs`. Then iterate `i` from 0 to `len(prefs[h])` (use the `range` function). Now you know that `h` ranks `prefs[h][i]` with `i+1`.
     
-2. In `helper.py` write a function `match(hospital_prefs, student_prefs, students)` that returns a stable match dictionary. (4 points)
+2. In `helper.py` write a function `match(student_prefs, hospital_prefs, students)` that returns a stable match dictionary. (4 points)
 
     The included `test_match.py` tests your `match()` function using the same example from class. You can run it at the command line using `$ python test_match.py`.
 
