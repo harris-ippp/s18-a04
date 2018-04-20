@@ -17,5 +17,5 @@ hospital_prefs = {
     'Z': ['A', 'B', 'C']
 }
 
-M = helper.match(student_prefs, hospital_prefs, students)
+M = helper.match(hospital_prefs, student_prefs, students)
 print(M)
